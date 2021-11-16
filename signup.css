@@ -1,0 +1,127 @@
+html,body
+{
+    height:100%;
+    width:100%;
+}
+*
+{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+  .container
+ {
+    background-color:white;
+    width:100%;
+    height: 100%;
+ }
+.div1
+{
+    height: 100%;
+    width: 50%;
+    float:left;
+    background-color: #f3ead4;
+}
+.subdiv1
+{
+    height: 40%;
+    width:100%;
+    margin: 0 116px 0 0;
+    padding: 48px 0 0;
+    padding-left: 178px;
+    line-height: 1.5;
+    font-family: PlayfairDisplay;
+    font-size: 25px;
+}
+.subdiv2
+{
+    height: 60%;
+    width:100%;
+}
+.img
+{
+   margin: 182px 0 0;
+   object-fit: contain;
+}
+.div2
+{
+    height: 100%;
+    width:50%;
+    float: right;
+    padding: 80px;
+}
+.head
+{
+  font-family: PlayfairDisplay;
+  font-size: 32px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #000000;
+  font-weight: normal;
+}
+.header
+{
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #000000;
+    font-weight:600 ;
+}
+.name
+{
+    width: 100%;
+    font-family: Poppins;
+    font-size: 13px;
+    color: #999999;
+   line-height:1.5;
+}
+.text
+{
+    border:none;
+    width: 100%;
+}
+input.text {
+    border-bottom: 1px solid #999999;
+}
+.text:focus-visible
+{
+    outline: none;
+}
+.pwd
+{
+    position:relative;
+    width:100%;
+}
+.image
+{
+    position: absolute;
+    right:1%;
+}
+.rectangle
+{
+  height: 50px;
+  margin: 39px 0 29px;
+  width:100%;
+  border-radius: 25px;
+  background-color: #772360;
+  color: #ffffff;
+}
+.para
+{
+    width: 100%;
+    font-family: Poppins;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #666;
+}
+.log
+{
+    font-weight: bold;
+    color:  #772360;
+    font-family: Poppins;
+    font-size: 14px;
+}
